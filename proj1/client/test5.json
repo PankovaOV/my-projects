@@ -1,0 +1,6 @@
+{
+    "towers": [
+        {"id": "A", "coordinates": {"x": "zero", "y": 0}}
+    ],
+    "connections": []
+}

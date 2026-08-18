@@ -1,0 +1,10 @@
+{
+  "towers": [
+    {"id": "A", "coordinates": {"x": 0, "y": 0}},
+    {"id": "A", "coordinates": {"x": 2, "y": 0}},
+    {"id": "B", "coordinates": {"x": 1, "y": 1}}
+  ],
+  "connections": [
+    {"from": "A", "to": "B"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "towers": [
+    {"id": "A", "coordinates": {"x": 0, "y": 0}},
+    {"id": "B", "coordinates": {"x": 1, "y": 0}},
+    {"id": "C", "coordinates": {"x": 2, "y": 0}},
+    {"id": "D", "coordinates": {"x": 0, "y": 1}},
+    {"id": "E", "coordinates": {"x": 1, "y": 1}},
+    {"id": "F", "coordinates": {"x": 2, "y": 1}},
+    {"id": "G", "coordinates": {"x": 0, "y": 2}},
+    {"id": "H", "coordinates": {"x": 1, "y": 2}},
+    {"id": "I", "coordinates": {"x": 2, "y": 2}},
+    {"id": "J", "coordinates": {"x": 1, "y": 1.5}}
+  ],
+  "connections": [
+    {"from": "A", "to": "B"},
+    {"from": "B", "to": "C"},
+    {"from": "A", "to": "D"},
+    {"from": "B", "to": "E"},
+    {"from": "C", "to": "F"},
+    {"from": "D", "to": "E"},
+    {"from": "E", "to": "F"},
+    {"from": "D", "to": "G"},
+    {"from": "E", "to": "H"},
+    {"from": "F", "to": "I"},
+    {"from": "G", "to": "H"},
+    {"from": "H", "to": "I"},
+    {"from": "E", "to": "J"},
+    {"from": "H", "to": "J"}
+  ]
+}
